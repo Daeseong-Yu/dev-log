@@ -1,0 +1,4 @@
+baseURL = 'https://dev.nomaduub.com/'
+locale = 'en-us'
+title = 'Dev Blog'
+theme = 'PaperMod'
