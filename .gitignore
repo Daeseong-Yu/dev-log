@@ -1,0 +1,18 @@
+# Hugo build output
+/public/
+
+# Hugo cache
+/resources/_gen/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# Node (혹시 나중에 사용 시)
+node_modules/
