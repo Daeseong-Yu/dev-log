@@ -1,4 +1,29 @@
-baseURL = 'https://dev.nomaduub.com/'
-locale = 'en-us'
-title = 'Dev Blog'
-theme = 'PaperMod'
+baseURL = "https://blog.nomaduub.com/"
+languageCode = "en-us"
+title = "Daeseong(Dennis) Dev Blog"
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 10
+
+[params]
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+
+[menu]
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
